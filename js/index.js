@@ -28,14 +28,18 @@ $('.bloghead').click(function(){
 });
 $('.rpmhead').click(function(){
     $('.rpmdesc').slideToggle(1500);
+    $('.rpmshort').slideToggle(500);
 });
 $('.suite1head').click(function(){
+    $('.suite1short').slideToggle(500);
     $('#suite1desc').slideToggle(500);
 });
 $('.suite2head').click(function(){
+    $('.suite2short').slideToggle(500);
     $('#suite2desc').slideToggle(500);
 });
 $('.suite3head').click(function(){
+    $('.suite3short').slideToggle(500);
     $('#suite3desc').slideToggle(500);
 });
 });
