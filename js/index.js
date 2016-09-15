@@ -42,5 +42,22 @@ $('.suite3head').click(function(){
     $('.suite3short').slideToggle(500);
     $('#suite3desc').slideToggle(500);
 });
+
+$('.scart').click(function(){
+    $('.scart').attr('src','../images/cart.png');
+    $(this).attr('src','../images/cartactive.png');
+});
+$('.scart1').click(function(){
+    $('.scart1').attr('src','../images/cart.png');
+    $(this).attr('src','../images/cartactive.png');
+});
+$('.scart2').click(function(){
+    $('.scart2').attr('src','../images/cart.png');
+    $(this).attr('src','../images/cartactive.png');
+});
+$('.scart3').click(function(){
+    $('.scart3').attr('src','../images/cart.png');
+    $(this).attr('src','../images/cartactive.png');
+});
 });
 
